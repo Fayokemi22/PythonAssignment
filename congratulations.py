@@ -1,0 +1,8 @@
+
+# collect input for grade
+# use the conditional system for the grade
+
+grade = int(input("Enter grade"))
+
+if grade >= 90:
+	print('Congratulations! Your grade of', grade,'earns you an A in this course')
