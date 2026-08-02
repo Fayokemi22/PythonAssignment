@@ -30,3 +30,10 @@ while(is_running):
 
         case 3:
             print("Your balance is ",balance)
+
+        case 4:
+            is_running = False
+            print("Exiting...")
+
+        case _:
+            print("Invalid input")
